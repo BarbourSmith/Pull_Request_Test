@@ -21,7 +21,7 @@
     {
       "atomType": "Rectangle",
       "x": 0.4,
-      "y": 0.4,
+      "y": 0.3,
       "uniqueID": "id-31",
       "ioValues": [
         {
@@ -52,7 +52,7 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.4,
+      "x": 0.3,
       "y": 0.5,
       "uniqueID": "id-45",
       "ioValues": [
@@ -74,7 +74,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 20
         }
       ]
     },
@@ -142,7 +142,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 15
         }
       ]
     },
