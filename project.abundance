@@ -158,7 +158,8 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": -10,
+          "currentEquation": "-10"
         }
       ]
     },
