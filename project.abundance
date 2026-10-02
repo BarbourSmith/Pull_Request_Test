@@ -125,7 +125,7 @@
     {
       "atomType": "Move",
       "x": 0.6,
-      "y": 0.5,
+      "y": 0.6,
       "uniqueID": "id-62",
       "ioValues": [
         {
@@ -134,15 +134,15 @@
         },
         {
           "name": "xDist",
-          "ioValue": 25
+          "ioValue": -8
         },
         {
           "name": "yDist",
-          "ioValue": 20
+          "ioValue": 5
         },
         {
           "name": "zDist",
-          "ioValue": -10
+          "ioValue": 0
         }
       ]
     },
@@ -174,8 +174,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -7,
-          "currentEquation": "-7"
+          "ioValue": -7
         },
         {
           "name": "yDist",
