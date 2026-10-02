@@ -21,7 +21,7 @@
     {
       "atomType": "Rectangle",
       "x": 0.4,
-      "y": 0.6,
+      "y": 0.4,
       "uniqueID": "id-31",
       "ioValues": [
         {
@@ -36,8 +36,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.6,
-      "y": 0.5,
+      "x": 0.5,
+      "y": 0.4,
       "uniqueID": "id-35",
       "ioValues": [
         {
@@ -49,6 +49,146 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.4,
+      "y": 0.5,
+      "uniqueID": "id-45",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5,
+      "y": 0.6,
+      "uniqueID": "id-48",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7,
+      "y": 0.5,
+      "uniqueID": "id-52",
+      "ioValues": [
+        {
+          "name": "makeDisjoint",
+          "ioValue": true
+        },
+        {
+          "name": "Shape 1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape3",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape4",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "RegularPolygon",
+      "x": 0.3,
+      "y": 0.8,
+      "uniqueID": "id-58",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 6
+        },
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6,
+      "y": 0.5,
+      "uniqueID": "id-62",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 20,
+          "currentEquation": "20"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.4,
+      "y": 0.8,
+      "uniqueID": "id-68",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6,
+      "y": 0.8,
+      "uniqueID": "id-72",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 30,
+          "currentEquation": "30"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -58,9 +198,44 @@
       "ap2ID": "id-35"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-35",
+      "ap2ID": "id-52"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-45",
+      "ap2ID": "id-48"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-48",
+      "ap2ID": "id-62"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-52",
       "ap2ID": "id-29"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-58",
+      "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "Shape2",
+      "ap1ID": "id-62",
+      "ap2ID": "id-52"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-68",
+      "ap2ID": "id-72"
+    },
+    {
+      "ap2Name": "Shape3",
+      "ap1ID": "id-72",
+      "ap2ID": "id-52"
     }
   ],
   "unitsKey": "MM",
