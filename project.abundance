@@ -182,7 +182,8 @@
         },
         {
           "name": "height",
-          "ioValue": -10
+          "ioValue": 25,
+          "currentEquation": "25"
         }
       ]
     },
@@ -198,8 +199,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -27,
-          "currentEquation": "-27"
+          "ioValue": -27
         },
         {
           "name": "yDist",
