@@ -74,8 +74,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -135,8 +134,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 25
         },
         {
           "name": "yDist",
@@ -176,7 +174,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 33
+          "ioValue": 27
         },
         {
           "name": "yDist",
