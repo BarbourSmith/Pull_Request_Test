@@ -7,30 +7,6 @@
   "topLevel": true,
   "allAtoms": [
     {
-      "atomType": "Rotate",
-      "x": 0.7,
-      "y": 0.5,
-      "uniqueID": "id-109",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 45
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
       "atomType": "Output",
       "x": 1,
       "y": 0.5,
@@ -166,7 +142,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 15
+          "ioValue": -10
         }
       ]
     },
@@ -182,8 +158,7 @@
         },
         {
           "name": "height",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 25
         }
       ]
     },
@@ -213,11 +188,6 @@
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "Shape2",
-      "ap1ID": "id-109",
-      "ap2ID": "id-52"
-    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-31",
@@ -249,9 +219,9 @@
       "ap2ID": "id-68"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "Shape2",
       "ap1ID": "id-62",
-      "ap2ID": "id-109"
+      "ap2ID": "id-52"
     },
     {
       "ap2Name": "geometry",
