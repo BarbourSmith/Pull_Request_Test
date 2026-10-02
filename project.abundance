@@ -198,7 +198,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 27
+          "ioValue": -27,
+          "currentEquation": "-27"
         },
         {
           "name": "yDist",
@@ -212,6 +213,11 @@
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "Shape2",
+      "ap1ID": "id-109",
+      "ap2ID": "id-52"
+    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-31",
@@ -255,11 +261,6 @@
     {
       "ap2Name": "Shape3",
       "ap1ID": "id-72",
-      "ap2ID": "id-52"
-    },
-    {
-      "ap2Name": "Shape2",
-      "ap1ID": "id-109",
       "ap2ID": "id-52"
     }
   ],
